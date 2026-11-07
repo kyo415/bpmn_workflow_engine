@@ -1,7 +1,7 @@
 package com.bpmn.workflowengine.workflow.service;
 
 import com.bpmn.workflowengine.tenancy.domain.Tenant;
-import com.bpmn.workflowengine.tenancy.persistence.TenantRepository;
+import com.bpmn.workflowengine.tenancy.repository.TenantRepository;
 import com.bpmn.workflowengine.workflow.domain.Workflow;
 import com.bpmn.workflowengine.workflow.repository.WorkflowRepository;
 import org.junit.jupiter.api.Test;

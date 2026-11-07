@@ -1,10 +1,10 @@
-package com.bpmn.workflowengine.identity.application;
+package com.bpmn.workflowengine.identity.service;
 
 import com.bpmn.workflowengine.identity.domain.*;
-import com.bpmn.workflowengine.identity.infrastructure.*;
+import com.bpmn.workflowengine.identity.repository.*;
 import com.bpmn.workflowengine.tenancy.domain.Tenant;
 import com.bpmn.workflowengine.tenancy.domain.TenantStatus;
-import com.bpmn.workflowengine.tenancy.persistence.TenantRepository;
+import com.bpmn.workflowengine.tenancy.repository.TenantRepository;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

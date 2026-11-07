@@ -1,5 +1,5 @@
 
-package com.bpmn.workflowengine.identity.infrastructure;
+package com.bpmn.workflowengine.identity.service;
 
 import org.springframework.stereotype.Component;
 

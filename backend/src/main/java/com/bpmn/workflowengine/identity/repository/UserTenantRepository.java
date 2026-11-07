@@ -1,4 +1,4 @@
-package com.bpmn.workflowengine.identity.infrastructure;
+package com.bpmn.workflowengine.identity.repository;
 
 import com.bpmn.workflowengine.identity.domain.MembershipStatus;
 import com.bpmn.workflowengine.identity.domain.UserTenant;

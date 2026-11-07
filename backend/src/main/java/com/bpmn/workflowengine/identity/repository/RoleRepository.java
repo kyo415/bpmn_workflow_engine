@@ -1,4 +1,4 @@
-package com.bpmn.workflowengine.identity.infrastructure;
+package com.bpmn.workflowengine.identity.repository;
 
 import com.bpmn.workflowengine.identity.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;

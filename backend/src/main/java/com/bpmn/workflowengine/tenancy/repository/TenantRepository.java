@@ -1,4 +1,4 @@
-package com.bpmn.workflowengine.tenancy.persistence;
+package com.bpmn.workflowengine.tenancy.repository;
 
 import com.bpmn.workflowengine.tenancy.domain.Tenant;
 import com.bpmn.workflowengine.tenancy.domain.TenantStatus;

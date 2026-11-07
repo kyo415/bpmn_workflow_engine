@@ -1,9 +1,12 @@
-package com.bpmn.workflowengine.identity.application;
+package com.bpmn.workflowengine.identity.service;
 
 import com.bpmn.workflowengine.identity.domain.*;
-import com.bpmn.workflowengine.identity.infrastructure.*;
+import com.bpmn.workflowengine.identity.repository.InvitationTokenRepository;
+import com.bpmn.workflowengine.identity.repository.RoleRepository;
+import com.bpmn.workflowengine.identity.repository.UserRepository;
+import com.bpmn.workflowengine.identity.repository.UserTenantRepository;
 import com.bpmn.workflowengine.tenancy.domain.Tenant;
-import com.bpmn.workflowengine.tenancy.persistence.TenantRepository;
+import com.bpmn.workflowengine.tenancy.repository.TenantRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
